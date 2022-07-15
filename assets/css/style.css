@@ -1,0 +1,176 @@
+:root{
+    --tipografia-facebook:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    --color-gris-facebook:#f0f2f5;
+    --color-blanco:#fff;
+    --color-negro:#000;
+    --color-verde:#42b72a;
+    --color-azul:#1877f2;
+    --color-azul-hover:#4267b2;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--tipografia-facebook);
+}
+
+a{
+    text-decoration: none;
+}
+.borde{
+    background: var(--color-gris-facebook);
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+.Primer-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);  
+    grid-column-gap: 50px;
+    padding-top: 50px;
+    margin: 0 151px;
+    padding-right: 49px;
+}
+
+
+img{
+    transform: translateX(-22px);
+    width: 40%;
+    margin-top: 100px;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.formulario {
+    display: block;
+}
+.formulario{
+    max-width: 400px;
+    padding: 1rem;
+    background: var(--color-blanco);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: 15px 0 0;
+    padding: 29px 0 5px;
+    width: 401px;
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn-inicio{
+    width: 332px;
+    height: 48px;
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    margin: 15px;
+}
+.btn-inicio:hover{
+    background-color:var(--color-azul-hover);
+}
+
+.olvido{
+    color: var(--color-azul);
+}
+
+hr{
+    height: 1.2px;
+    border-top: 2px solid ;
+    color: rgb(46, 44, 41);
+}
+
+
+.seccion-2{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-row-gap: 20px;
+}
+.ema{
+    display: grid;
+    grid-auto-columns: max-content;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;   
+    margin: 10px;
+}
+.crear{
+    width: 190px;
+    height: 48px;
+    background-color: var(--color-verde);
+    color: var(--color-blanco);
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    margin: 15px;
+}
+
+.crear:hover{
+    background-color: chartreuse ;
+}
+.pagina{
+    color: #000;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    width: 22pc;    
+}
+
+.pagina:hover{
+    text-decoration: underline;
+}
+
+/*pie de pagina*/
+
+footer{
+    width: 54%;
+    margin: auto;
+    font-family: inherit;
+}
+.links{
+    padding-top: 8px;
+}
+
+.links a{
+    color: var(--color-azul-hover);
+    font-size: 12px;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.links li{
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+
+.line-foter{
+    height: 1.2px;
+    border-top: 1.5px solid ;
+    color: antiquewhite;
+}
+
+.copy{
+    margin: 2.5rem 0;
+    font-size: 1.1rem;
+    color: var(--color-negro);
+}
